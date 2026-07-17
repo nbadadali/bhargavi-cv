@@ -1,0 +1,21 @@
+# Secrets / local config
+.mcp.json
+.claude/settings.local.json
+
+# Personal documents — never pushed to this public repo (kept locally / deployed
+# to the live site directly, not via git). See conversation 2026-07-18.
+*.docx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Office lock files
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+
+# Dependencies / build output
+node_modules/
+dist/
+build/
